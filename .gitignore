@@ -1,0 +1,16 @@
+# Ignorar diretório .terraform
+.terraform/
+
+# Ignorar arquivos de estado do Terraform
+*.tfstate
+*.tfstate.backup
+
+# Ignorar diretórios de saída
+terraform.tfstate.d/
+
+# Ignorar variáveis de ambiente sensíveis
+.env
+.envrc
+
+*.pem
+*.ppk
